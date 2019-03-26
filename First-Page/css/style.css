@@ -1,0 +1,91 @@
+/* Start Global Properties */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+/* Start Container */
+
+.container {
+    border-top: 10px solid #2373BE;
+    display: flex;
+    padding: 0 65px 80px 0
+}
+
+/* End Container */
+
+/* Start Left */
+
+.container .left-section {
+    width: 55%;
+    margin-right: 3%
+}
+
+.container .left-section .image img {
+    width: 100%
+}
+
+.container .left-section blockquote {
+    padding-left: 150px;
+    color: #97BAD7;
+    font-size: 30px;
+    line-height: 1.45;
+    position: relative
+}
+
+.container .left-section blockquote::before {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201C";
+    font-size: 150px;
+    position: absolute;
+    top: -60px;
+    left: 110px;
+}
+
+.container .left-section blockquote::after {
+    font-family: Georgia, serif;
+    display: block;
+    content: "\201D";
+    font-size: 150px;
+    position: absolute;
+    top: 50px;
+    left: 350px
+}
+
+/* End Left */
+
+/* Start Right */
+
+.container .right-section {
+    width: 42%;
+    padding-top: 150px;
+    color: #AAA
+}
+
+.container .right-section h3 {
+    color: #97BAD7;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 15px
+}
+
+.container .right-section p {
+    line-height: 1.4em;
+    margin-bottom: 30px;
+    padding-right: 130px;
+    font-size: 18px
+}
+
+.container .right-section p span {
+    color: #888;
+    font-style: italic
+}
+
+/* End Right */
+
+
+

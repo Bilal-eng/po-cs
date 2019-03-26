@@ -1,0 +1,127 @@
+/* Start Global Properties */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #2373BE
+}
+
+p {
+    color: #AAA;
+    line-height: 1.5
+}
+
+/* End Global Properties */
+
+/* Start Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* End Container */
+
+/* Start Header */
+
+.header {
+    border-top: 10px solid #2373BE;
+    border-bottom: 1.5px solid #AAA;
+    padding: 60px 150px 20px;
+    display: flex;
+    position: relative
+}
+
+/* End Header */
+
+/* Start Manager Section */
+
+.manager, .connect {
+    display: flex;
+    flex-direction: column
+}
+
+.header .manager {
+    margin-right: 30px;
+    padding-right: 100px
+}
+
+.manager::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 75%;
+    background-color: #AAA;
+    bottom: 0;
+    left: 126px
+}
+
+.manager .title,
+.connect .title {
+    display: flex
+}
+
+.manager .title .icon,
+.connect .title .icon {
+    margin-right: 10px
+}
+
+.manager .link a,
+.footer .link a {
+    text-decoration: none;
+    color: #2373BE
+}
+
+.connect::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 75%;
+    background-color: #AAA;
+    bottom: 0;
+    left: 788px;   
+}
+
+/* End Manager Section */
+
+/* Start Content */
+
+.content {
+    height: 359px
+}
+
+.content img {
+    border-bottom: 1.5px solid #AAA;
+    width: 100%
+}
+
+/* End Content */
+
+/* Start Footer */
+
+.footer {
+    padding: 60px 150px 40px 375px;
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.footer::before {
+    content: "";
+    width: 2px;
+    height: 85%;
+    position: absolute;
+    background-color: #AAA;
+    top: 0;
+    left: 350px
+}
+
+/* End Footer */
